@@ -9,6 +9,12 @@ import Tutorial from './Tutorial/Tutorial'
 import Choose from './Choose/Choose'
 import Explore from './Explore/Explore'
 import Works from './Works/Works'
+import Agents from './Agents/Agents'
+import Clients from './Clients/Clients'
+import NewsLetter from './NewsLetter/NewsLetter'
+import Blog from './Blog/Blog'
+import Footer from './Footer/Footer'
+import Property from './Property/Property'
 const Body = () => {
   return (
     <div>
@@ -20,8 +26,14 @@ const Body = () => {
         <Service />
         <Tutorial />
         <Choose />
+        <Property />
         <Explore />
         <Works />
+        <Agents />
+        <Clients />
+        <NewsLetter />
+        <Blog />
+        <Footer />
     </div>
   )
 }

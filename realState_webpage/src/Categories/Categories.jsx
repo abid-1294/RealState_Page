@@ -4,6 +4,7 @@ import RHSArrow from '../assets/RHS Arrow.png'
 import Appartmen from '../assets/categories1.png'
 import DuplexHouse from '../assets/categories2.png'
 import Office from '../assets/categories3.png'
+
 const Categories = () => {
   return (
     <>
